@@ -1,0 +1,254 @@
+*{
+  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Imag/pai.jpg);
+}
+.Tit{
+    border: 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;     
+    color: black;
+    background: RED;
+
+}
+.MENU{
+    background-color: RED;
+    padding: 5px 15px;
+    text-align: left;
+}
+.MENU li{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+.MENU{
+    width: 600px;
+    margin: 5px auto;
+    background: BLUE;
+    text-align: center;
+}
+.navegacion ul{
+    list-style: none;
+}
+.MENU >li{
+    position: relative;
+    display: inline-block;
+}
+.MENU > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: #000000 ;
+    text-decoration: none;
+}
+.MENU li a:hover{
+    color: blueviolet;
+    transition: all 3s;
+}
+.Sub{
+    position: absolute;
+    background:RED;
+    width: 110%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.Sub li a{
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.MENU li:hover .Sub{
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+.Subme{
+    position: absolute;
+    background:RED;
+    width: 170%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.Subme li a{
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.MENU li:hover .Subme{
+    visibility: visible;
+    opacity: 1;
+}
+.Submen{
+    position: absolute;
+    background:BLUE;
+    width: 170%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.Submen li a{
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.MENU li:hover .Submen{
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+.Submenu{
+    position: absolute;
+    background:RED ;
+    width: 200%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.Submenu li a{
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.MENU li:hover .Submenu{
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+.social-bar{
+    padding: 10px 10x 10px 10px;
+    width: 200px;
+    
+}
+.imagen{
+    background-image: url(Imag/Logo.png);
+    width: 400px;
+    height: 123px;
+    padding: 40px;
+    margin: auto;
+
+}
+.Titulo{
+    border:1px solid black;
+    text-align: center;
+    background: RED; 
+    padding: 10px 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.cuadrog{
+    width: 900px;
+    margin: auto;
+    margin-top: 40px;}
+
+.cuadrou{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    width: 440px;
+    margin: auto;
+    background: BLUE;
+    display: inline-block;
+}
+.cuadrod{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    width: 440px;
+    margin: auto;
+    background: RED;
+    display: inline-block;
+    margin-left: 450px;
+    position: relative;
+    bottom: 500px;
+}
+.banner{
+	width:300px;
+	height:210px;
+	border: 2px solid aquamarine;
+	margin:30px;
+	background-size: 100% 100%;
+	animation:banner 3s infinite;
+    position: relative;
+	animation-direction:alternate;
+    margin:auto;
+    margin-top: 60px;
+	}
+
+@keyframes banner {
+0%,30%{
+	background-image: url(Imag/Logo.png);
+	opacity:1;
+    background-size: 100% 100%;
+	}
+31%,34%{
+	opacity:0.1;
+	}
+35%,65%{
+	background-image: url(Imag/Plantel.png);
+	opacity:1;
+    background-size: 100% 100%;
+	}
+66%,69%{
+	opacity:0.1;
+	}
+70%,100%{
+	background-image: url(Imag/Laboratorio.png);
+	opacity:1;
+    background-size: 100% 100%;
+	}
+}
+.cuadrot{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    width: 440px;
+    margin: auto;
+    margin-top: 30px;
+    background: ORANGE;
+    margin-left: 450px;
+    position: relative;
+    bottom: 470px;
+    
+}
+.cuadroc{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    width: 440px;
+    margin: auto;
+    margin-top: 30px;
+    background: ORANGE;
+    margin-left: 450px;
+    position: relative;
+    bottom: 450px;
+}
+.cuadros{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    width: 440px;
+    margin: auto;
+    margin-top: 30px;
+    background: ORANGE;
+    position: relative;
+    bottom: 350px;
+}
+#video, video{
+    margin: auto;
+    padding-top: 60px;
+    width: ;
+    height: ;
+}
